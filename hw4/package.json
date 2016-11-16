@@ -1,0 +1,40 @@
+{
+  "name": "babel-setup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serve .",
+    "clean": "rimraf dist",
+    "build": "webpack",
+    "build:watch": "npm run build -- --watch"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-core": "^6.18.0",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-transform-class-properties": "^6.18.0",
+    "babel-plugin-transform-object-rest-spread": "^6.16.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "css-loader": "^0.25.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "rimraf": "^2.5.4",
+    "serve": "^1.4.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chung-I/-react-todo-hw-starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chung-I/-react-todo-hw-starter/issues"
+  },
+  "homepage": "https://github.com/Chung-I/-react-todo-hw-starter#readme",
+  "description": ""
+}

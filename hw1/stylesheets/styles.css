@@ -1,0 +1,42 @@
+/*h1 ,input {
+}
+body {
+    text-align:center;
+}
+input[type=checkbox]:checked + label {
+    text-decoration: line-through;
+}
+.active-hidden {
+    display: none;
+}
+.completed-hidden {
+    display: none;
+}
+footer li {
+    display: inline;
+    list-style: none;
+}
+
+footer button {
+    display: inline;
+}
+
+li {
+    list-style: none;
+}
+div.view-change-color {
+    display: block;
+    margin-left:100px;
+    margin-right:100px;
+}
+
+div.view-change-color:hover {
+    background-color: black;
+    text-color: white;
+}
+#mark-all-as-complete:before {
+        content: '❯';
+        font-size: 22px;
+        color: #e6e6e6;
+        padding: 10px 27px 10px 27px;
+}*/

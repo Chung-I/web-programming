@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Todolists</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/index.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/base.css">
+  </head>
+  <body>
+    <section class="todoapp" >
+    <header class="header">
+      <h1 id="title">todos</h1>
+      <input class="new-todo" id="input-text" placeholder="What needs to be done?" name='todo' autocomplete="off"
+autofocus><br>
+    </header>
+    <section class="main" style="display: block;">
+      <input class="toggle-all" type="checkbox">
+      <label for="toggle-all">Mark all as complete</label>
+      <ul id="todo-list" class="todo-list">
+      </ul>
+    </section>
+    <footer class="footer" style="display: block;">
+      <span id="counter" class="todo-count">no item</span>
+      <ul id="filters" class="filters">
+        <li>
+          <a href="#/" id="all-button" class="selected">All</a>
+        </li>
+        <li>
+          <a href="#/active" id="active-button">Active</a>
+        </li>
+        <li>
+          <a href="#/completed" id="complete-button">Complete</a>
+        </li>
+      </ul>
+      <button id="clear-complete" class="clear-completed"
+         >Clear completed</button>
+    </footer>
+    </section>
+    <script type="text/javascript" src="javascripts/todo.js"></script>
+  </body>
+</html>
