@@ -3,7 +3,13 @@ import React, { Component } from 'react';
 
 class HomePage extends Component {
   render() {
-    return <div>Home</div>;
+    return (
+      <div>
+        Home
+        <br/>
+        <a href="#/users">users</a>
+      </div>
+    );
   }
 }
 
